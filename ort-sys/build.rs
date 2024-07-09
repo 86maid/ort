@@ -370,6 +370,13 @@ fn prepare_libort_dir() -> (PathBuf, bool) {
 			} else if cfg!(feature = "rocm") {
 				feature_set.push("rocm");
 			}
+
+
+			if !cfg!(feature = "directml") && !cfg!(feature = "cuda") && (target == "x86_64-pc-windows-msvc" || target == "i686-pc-windows-msvc") {
+				feature_set.push("noml");
+			}
+
+
 			let feature_set = if !feature_set.is_empty() { feature_set.join(",") } else { "none".to_owned() };
 			println!("selected feature set: {feature_set}");
 			let mut dist = find_dist(&target, &feature_set);
