@@ -14,8 +14,8 @@ none	aarch64-pc-windows-msvc	https://parcel.pyke.io/v2/delivery/ortrs/packages/m
 cu12	x86_64-pc-windows-msvc	https://parcel.pyke.io/v2/delivery/ortrs/packages/msort-binary/1.18.1/ortrs-msort_dylib_cu12-v1.18.1-x86_64-pc-windows-msvc.tgz	CDBC2D87B202E1847900E94796D102EE4D5C19A9568BBD014838ECD1F5D5350B
 cu11	x86_64-pc-windows-msvc	https://parcel.pyke.io/v2/delivery/ortrs/packages/msort-binary/1.18.1/ortrs-msort_dylib_cu11-v1.18.1-x86_64-pc-windows-msvc.tgz	B514FC25453F955F8592100448B27F5E1762A344E8C2D57D41B908978EF2A126
 none	x86_64-pc-windows-msvc	https://parcel.pyke.io/v2/delivery/ortrs/packages/msort-binary/1.18.1/ortrs-msort_static-v1.18.1-x86_64-pc-windows-msvc.tgz	EB2BCD1778C5934437D4C5B17F67DEAF5F67D2E3C18C7298973EACD41113DC01
-noml  x86_64-pc-windows-msvc  https://github.com/86maid/ort/releases/download/v1.18.1/ortrs-msort_static-v1.18.1-x86_64-pc-windows-msvc.tgz 784453c7e093fc603520310e1400e210fb9bc4237dfeabdb4ab34fe178e34dd8
-noml  i686-pc-windows-msvc  https://github.com/86maid/ort/releases/download/v1.18.1/ortrs-msort_static-v1.18.1-i686-pc-windows-msvc.tgz c3e79a26b706f30ecf2a248aa7e27e09e059d08387a42c1952ef311a381d0770
+noml	x86_64-pc-windows-msvc  https://github.com/86maid/ort/releases/download/v1.18.1/ortrs-msort_static-v1.18.1-x86_64-pc-windows-msvc.tgz 784453c7e093fc603520310e1400e210fb9bc4237dfeabdb4ab34fe178e34dd8
+noml	i686-pc-windows-msvc  https://github.com/86maid/ort/releases/download/v1.18.1/ortrs-msort_static-v1.18.1-i686-pc-windows-msvc.tgz c3e79a26b706f30ecf2a248aa7e27e09e059d08387a42c1952ef311a381d0770
 
 train	aarch64-pc-windows-msvc	https://parcel.pyke.io/v2/delivery/ortrs/packages/msort-binary/1.18.1/ortrs-msort_static_train-v1.18.1-aarch64-pc-windows-msvc.tgz	8CC1FFFD8AB5E526A076C29A767A650C436E31179D0C6E52C2EA936067B72566
 train,cu12	x86_64-pc-windows-msvc	https://parcel.pyke.io/v2/delivery/ortrs/packages/msort-binary/1.18.1/ortrs-msort_dylib_train,cu12-v1.18.1-x86_64-pc-windows-msvc.tgz	6AF64567E25B59AD1196D4953EF8C6A65795E8A4B864E10D8303A027AC50B2D0
