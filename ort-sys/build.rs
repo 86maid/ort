@@ -371,11 +371,12 @@ fn prepare_libort_dir() -> (PathBuf, bool) {
 				feature_set.push("rocm");
 			}
 
+			let mut flag = true;
 
 			if !cfg!(feature = "directml") && !cfg!(feature = "cuda") && (target == "x86_64-pc-windows-msvc" || target == "i686-pc-windows-msvc") {
 				feature_set.push("noml");
+				flag = false;
 			}
-
 
 			let feature_set = if !feature_set.is_empty() { feature_set.join(",") } else { "none".to_owned() };
 			println!("selected feature set: {feature_set}");
@@ -413,7 +414,7 @@ fn prepare_libort_dir() -> (PathBuf, bool) {
 				extract_tgz(&downloaded_file, &cache_dir);
 			}
 
-			static_link_prerequisites(true);
+			static_link_prerequisites(flag);
 
 			#[cfg(feature = "copy-dylibs")]
 			{
