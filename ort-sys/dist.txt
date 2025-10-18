@@ -4,6 +4,7 @@ cu11	x86_64-unknown-linux-gnu	https://parcel.pyke.io/v2/delivery/ortrs/packages/
 rocm	x86_64-unknown-linux-gnu	https://parcel.pyke.io/v2/delivery/ortrs/packages/msort-binary/1.18.1/ortrs-msort_dylib_rocm-v1.18.1-x86_64-unknown-linux-gnu.tgz	84F74428E0BEC68C55B8E1E91B9282E984CD2866148A2584382B8CB3284214A3
 none	x86_64-unknown-linux-gnu	https://parcel.pyke.io/v2/delivery/ortrs/packages/msort-binary/1.18.1/ortrs-msort_static-v1.18.1-x86_64-unknown-linux-gnu.tgz	0A193706A95286853D792D7D9B2271CBEA35C57F249943FE811CED97E0E24862
 none	x86_64-unknown-linux-musl	https://github.com/86maid/ort/releases/download/v1.18.1/onnxruntime-v1.18.1-x86_64-linux-musl-static.tgz	3c6a1c037ccbca0b0984c7b26c7b29a0694eafeae741cf22f73c07ad7744c170
+none	aarch64-unknown-linux-musl	https://github.com/86maid/ort/releases/download/v1.18.1/onnxruntime-v1.18.1-aarch64-linux-musl-static.tgz	7ec2040d59a29540399c2f9f05f587f02f9c864de302285fb0397b179509cf51
 
 train	aarch64-unknown-linux-gnu	https://parcel.pyke.io/v2/delivery/ortrs/packages/msort-binary/1.18.1/ortrs-msort_static_train-v1.18.1-aarch64-unknown-linux-gnu.tgz	C04DBEAF19F2BCD3643F8F7D7FA01110A1AF429DFDD1C1DC7C5EDA2B1A8AA324
 train,cu12	x86_64-unknown-linux-gnu	https://parcel.pyke.io/v2/delivery/ortrs/packages/msort-binary/1.18.1/ortrs-msort_dylib_train,cu12-v1.18.1-x86_64-unknown-linux-gnu.tgz	A139D8AD8930930F5A61DF112C8275AAD1F0415FAFD08CE3031CEFFFC30F2445
